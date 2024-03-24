@@ -7,8 +7,9 @@ git clone -b thirteen https://github.com/alternoegraha/vendor_xiaomi_fog vendor/
 # Clone kernel tree
 git clone --depth=1 https://github.com/alternoegraha/wwy_kernel_xiaomi_fog_rebase kernel/xiaomi/fog
 
-# Clone LineageOS' hardware/xiaomi
-git clone -b lineage-20 https://github.com/LineageOS/android_hardware_xiaomi hardware/xiaomi
+# Clone hardware/xiaomi from PixelOS-AOSP
+rm -rf hardware/xiaomi
+git clone -b thirteen https://github.com/PixelOS-AOSP/hardware_xiaomi hardware/xiaomi
 
 # Kernel fixups
 cd kernel/xiaomi/fog
