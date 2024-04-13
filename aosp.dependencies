@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "PixelOS-AOSP/hardware_xiaomi",
+    "target_path": "hardware/xiaomi"
+  },
+  {
+    "repository": "alternoegraha/wwy_kernel_xiaomi_fog_rebase",
+    "target_path": "kernel/xiaomi/fog"
+  },
+  {
+    "repository": "alternoegraha/vendor_xiaomi_fog",
+    "target_path": "vendor/xiaomi/fog"
+  }
+]
