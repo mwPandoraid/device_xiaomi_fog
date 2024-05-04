@@ -13,6 +13,13 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
+# RisingOS stuff.
+WITH_GMS := true
+TARGET_CORE_GMS := true
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 680" \
+    RISING_MAINTAINER="AlterNoegraha"
 
 # Inherit from fog device
 $(call inherit-product, device/xiaomi/fog/device.mk)
