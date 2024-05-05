@@ -13,6 +13,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := false
+# Disable Phone Link support
+TARGET_PHONE_LINK_SUPPORTED := false
 # GApps
 WITH_GMS := true
 # Build with mini GApps right now
