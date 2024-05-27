@@ -252,6 +252,7 @@ PRODUCT_PACKAGES += \
 
 # Media
 PRODUCT_PACKAGES += \
+    android.hardware.media.c2@1.0.vendor \
     android.media.audio.common.types-V1-cpp \
     android.media.audio.common.types-V2-cpp \
     libavservices_minijail \
